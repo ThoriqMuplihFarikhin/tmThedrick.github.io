@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Thoriq</title>
+    <!-- swiper css  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--box icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!--custom css-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- header design-->
+    <header class="header">
+        <a href="#" class="logo">Thoriq</a>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skill">SKILL</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkmode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>HELLO, I am</h3>
+            <h1><span>Thoriq Muplih</span></h1>
+            <p>HALO perkenalkan saya santri angkatan 2 jurusan pplg di smk skill village islamic school jonggol</p>
+            <div class="social-media">
+                <a href="#" class='bx bxl-facebook'></a>
+                <a href="#" class='bx bxl-twitter'></a>
+                <a href="https://www.instagram.com/tmthedrick10_/" class='bx bxl-instagram-alt'></a>
+                <a href="#" class='bx bxl-linkedin'></a>
+
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profesi-container">
+            <div class="profesi-box">
+                <div class="profesi" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>web developer</h3>
+                </div>
+                <div class="profesi" style="--i:1;">
+                    <i class='bx bx-camera' ></i>
+                    <h3>photographer</h3>
+                </div>
+                <div class="profesi" style="--i:2;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>web designer</h3>
+                </div>
+                <div class="profesi" style="--i:3;">
+                    <i class='bx bx-video-recording' ></i>
+                    <h3>videographer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="#" alt="">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/coding-ai/coding-aja/MY.jpg" alt="foto Thoriq">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here To Help Your Next Project!</h3>
+            <P>saya Thoriq muplih farikhin, saya seorang it yang minat di bidang design. saya senang belajar hal baru, kreatif, dan mulai membiasakan diri bekerja dalam tim maupun mandiri </P>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,224L48,202.7C96,181,192,139,288,149.3C384,160,480,224,576,240C672,256,768,224,864,224C960,224,1056,256,1152,256C1248,256,1344,224,1392,208L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    
+     <!-- skill design -->
+    <section class="skills-section" id="skill">
+            <h2 class="heading">My <span>skills</span></h2>
+            
+        <div class="skills">
+            <div class="skill-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div class="progress-bar html" data-width="60">60%</div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar css" data-width="47">47%</div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div class="progress-bar js" data-width="30">30%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,288L48,293.3C96,299,192,309,288,277.3C384,245,480,171,576,149.3C672,128,768,160,864,186.7C960,213,1056,235,1152,218.7C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    
+    <!-- service section design-->
+    <section class="services-section" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        
+            <div class="services">
+                <div class="services-container">
+                    <div class="services-box">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Development</h3>
+                        <p> Saya dapat membantu membangun website yang responsif, modern, dan sesuai kebutuhan Anda dengan performa optimal.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <div class="services-box">
+                        <i class='bx bxs-paint'></i>
+                        <h3>graphic design</h3>
+                        <p> Desain grafis kreatif mulai dari poster, logo, hingga branding visual untuk memperkuat identitas bisnis atau personal Anda</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <div class="services-box">
+                        <i class='bx bx-bar-chart-alt'></i>
+                        <h3>Digital marketing</h3>
+                        <p>Membantu memasarkan produk/jasa Anda secara digital dengan strategi tepat sasaran, mulai dari SEO hingga social media campaign.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        
+        <div class="portfolio-container">
+            <!-- 1 -->
+            <div class="portfolio-box"> 
+                <img src="/coding-ai/thoriq-10-pplg/Screenshot 2025-09-16 204242.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web design portfolio</h4>
+                    <P>ini adalah web pertama saya yang berhasil saya buat dalam 1 bulan</P>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="portfolio-box">
+                <img src="/coding-ai/thoriq-10-pplg/port2.jpg" alt="">
+                
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <!-- <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet provident iusto non obcaecati reiciendis. Neque corporis nobis, magni quod earum voluptas eveniet, quae veritatis autem dolorem, impedit molestiae quasi repudiandae.</P> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="portfolio-box">
+                <img src="/coding-ai/thoriq-10-pplg/port2.jpg" alt="">
+                
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <!-- <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet provident iusto non obcaecati reiciendis. Neque corporis nobis, magni quod earum voluptas eveniet, quae veritatis autem dolorem, impedit molestiae quasi repudiandae.</P> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="portfolio-box">
+                <img src="/coding-ai/thoriq-10-pplg/port2.jpg" alt="">
+                
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <!-- <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet provident iusto non obcaecati reiciendis. Neque corporis nobis, magni quod earum voluptas eveniet, quae veritatis autem dolorem, impedit molestiae quasi repudiandae.</P> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="portfolio-box">
+                <img src="/coding-ai/thoriq-10-pplg/port2.jpg" alt="">
+                
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <!-- <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet provident iusto non obcaecati reiciendis. Neque corporis nobis, magni quod earum voluptas eveniet, quae veritatis autem dolorem, impedit molestiae quasi repudiandae.</P> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="portfolio-box">
+                <img src="/coding-ai/thoriq-10-pplg/port2.jpg" alt="">
+                
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <!-- <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet provident iusto non obcaecati reiciendis. Neque corporis nobis, magni quod earum voluptas eveniet, quae veritatis autem dolorem, impedit molestiae quasi repudiandae.</P> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design  -->
+    <section class="testimonial" id="testimonial">
+        <div class="testimonial-container">
+            <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+            <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+
+                <div class="testimonial-slide swiper-slide">
+                    <img src="/coding-ai/thoriq-10-pplg/apalah.jpg" alt="Testimonial 1">
+                    <h3>Helmi Alfarezel</h3>
+                    <p>web yang sangat bagus dan responsif menggunakan html css dan js good!!</p>
+                </div>
+
+                <div class="testimonial-slide swiper-slide">
+                    <img src="/coding-ai/thoriq-10-pplg/WIN_20250911_20_30_58_Pro.jpg" alt="Testimonial 2">
+                    <h3>Rafa Zaky Yunus</h3>
+                    <p>Kemajuan web yang telah di buat dan sudah sangat bagus dari first experience!!</p>
+                </div>
+
+                <div class="testimonial-slide swiper-slide">
+                    <img src="/coding-ai/thoriq-10-pplg/IMG-20250820-WA0020.jpg" alt="Testimonial 3">
+                    <h3>Rajwa Dhia Maajid</h3>
+                    <p>bagus bat, bagusin lagi web nya !!</p>
+                </div>
+
+                </div>
+
+                <!-- swiper navigation & pagination -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+    <!-- contact section design  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="full name">
+                <input type="email" placeholder="email address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="your number">
+                <input type="text" placeholder="email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+     <!-- footer design  -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>2025 by tm thedrick | All Right Reserved</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+     
+     <!-- animations -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <!--costom js-->
+     <script src="script.js"></script>
+
+</body>
+</html>
